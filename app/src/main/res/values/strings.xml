@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ClienteREST</string>
+    <string name="menu_anadir">Añadir</string>
+
+    <string name="bt_salir">Salir</string>
+    <string name="bt_anadir">Añadir</string>
+    <string name="bt_modificar">Modificar</string>
+
+    <string name="et_idprofesor">Id profesor</string>
+    <string name="et_tipo">Tipo</string>
+    <string name="et_fechai">Fecha Inicio</string>
+    <string name="et_fechaf">Fecha Final</string>
+    <string name="et_lugari">Lugar Inicio</string>
+    <string name="et_lugarf">Lugar Final</string>
+    <string name="et_descripcion">Descripcion</string>
+
+    <string name="menu_listview">Mostrar</string>
+
+</resources>

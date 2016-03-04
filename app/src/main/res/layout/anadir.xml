@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/etidprofesor"
+        android:hint="@string/et_idprofesor"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/ettipo"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/et_tipo"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/etfechai"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/et_fechai"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/etfechaf"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/et_fechaf"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/etlugari"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/et_lugari"
+        android:gravity="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/etlugarf"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/et_lugarf"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etdescripcion"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/et_descripcion"
+            android:gravity="center" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_anadir"
+            android:id="@+id/button"
+            android:onClick="btanadirnuevas"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_salir"
+            android:id="@+id/button2"
+            android:onClick="btsalir"/>
+    </LinearLayout>
+
+</LinearLayout>
